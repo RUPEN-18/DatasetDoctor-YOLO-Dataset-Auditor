@@ -1,0 +1,39 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Local datasets: only the bundled synthetic demo belongs in this repo
+/dataset/
+/datasets/
+/data/
+/train/
+/val/
+/valid/
+/test/
+*_cleaned/
+
+# Local audit output and model files
+reports/
+ui_captures/
+*_audit.json
+*_audit.csv
+*.pt
+*.onnx
+*.zip
+
+# Machine-local settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+DATASET DOCTOR
+Healthy data. Better starts.
+
+WINDOWS QUICK START
+1. Extract the whole ZIP to a normal folder.
+2. Install 64-bit Python 3.11 or 3.12 from python.org.
+   Enable Add Python to PATH.
+3. Double-click setup_windows.bat once (internet required for setup).
+4. Double-click run_app.bat.
+5. Click Try demo, then Open dataset for your own files.
+
+YOUR PPE DATASET
+Choose the folder containing data.yaml and train/valid/test.
+Example: C:\Users\admin\Desktop\construction_safety\datasets\css-data
+If needed, set the class names in Settings & help before scanning.
+
+All processing is local after setup. No GPU or model training required.
+Source files are preserved; fixes use a separate folder.
+
+Read README.md for details and docs/VALIDATION.md for the checks run.
+The engine was tested, and supplied screenshots show the UI running on
+Windows. Automated GUI checks could not run in the build environment.

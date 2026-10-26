@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataset-doctor-desktop"
+version = "1.0.0"
+description = "A professional desktop auditor for YOLO object-detection datasets"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Rupendran Manigandan"}]
+dependencies = ["PySide6>=6.8,<6.12", "Pillow>=12.0,<14", "PyYAML>=6.0.2,<7"]
+
+[project.scripts]
+dataset-doctor = "dataset_doctor.app:main"
+
+[tool.setuptools.packages.find]
+include = ["dataset_doctor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
